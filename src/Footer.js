@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = ({length}) => {
   return (
-    <footer>{length} List {length ===1 ? "item":"items"}</footer>
+    <footer>{length} {length ===1 ? "Goal":"Goals"} today</footer>
   )
 }
 
