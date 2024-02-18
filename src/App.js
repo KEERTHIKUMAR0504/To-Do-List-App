@@ -7,7 +7,7 @@ import Searchitem from './Searchitem';
 import apiRequest from './apiRequest';
 
 function App() {
-  const API_URL = "http://localhost:3500/items";
+  const API_URL = "https://65d1a444987977636bfb507f.mockapi.io/ToDoList";
   const [items,setItems] = useState([]);
   const [newItem, setNewItem] = useState('')
   const [search, setSearch] = useState('')
